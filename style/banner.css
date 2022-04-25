@@ -1,0 +1,56 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("https://picsum.photos/1080/400/?blur");
+  background-size: cover;
+  background-position: center;
+
+  font-size: 16px;
+
+  height: 400px;
+}
+
+.banner .container {
+  width: 50%;
+  margin: 0 30px;
+}
+
+.banner .descricao {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.banner .titulo {
+  /* font-family: "Times New Roman", Times, serif; */
+  font-size: 40px;
+
+  margin-top: 15%;
+}
+
+.banner .botao {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  margin-right: 15px;
+  margin-bottom: 40px;
+  padding: 15px;
+  transition: 0.3s ease all;
+}
+
+.banner .botao:hover {
+  color: black;
+  background-color: white;
+}
+
+.icon {
+  margin-right: 8px;
+}
