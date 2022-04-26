@@ -10,13 +10,20 @@
     <link rel="stylesheet" href="style/main.css" />
     <link rel="stylesheet" href="style/header.css" />
     <link rel="stylesheet" href="style/banner.css" />
+    <link rel="stylesheet" href="style/carrosel.css" />
+
+    <!-- responsive-css -->
+    <link rel="stylesheet" href="style/responsive.css" />
+
+    <!-- owl-css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <h2 class="logo">NETFLIX</h2>
         <nav>
-          <a href="#">inicio</a>
           <a href="#">Series</a>
           <a href="#">Flilmes</a>
           <a href="#">Documentários</a>
@@ -31,8 +38,7 @@
           <p class="descricao">
             Finge que isso é uma sinopse - Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Nesciunt doloremque nihil repellat,
-            eos iure aperiam similique totam hic quos. Laudantium culpa sunt
-            aspernatur esse explicabo nostrum, vel optio odio quos.
+            eos iure aperiam similique totam hic quos.
           </p>
           <div>
             <button role="button" class="botao">
@@ -52,9 +58,39 @@
       </div>
     </main>
 
+    <div class="carrosel">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-filme" src="https://picsum.photos/200/300" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="https://picsum.photos/200/300" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="https://picsum.photos/200/300" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="https://picsum.photos/200/300" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="https://picsum.photos/200/300" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="https://picsum.photos/200/300" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- fontawesome-js -->
     <script
       src="https://kit.fontawesome.com/067f1ddc73.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- owl-js -->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

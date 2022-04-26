@@ -1,0 +1,12 @@
+.carrosel {
+  cursor: grab;
+
+  margin-top: 30px;
+}
+
+.box-filme {
+  display: block;
+
+  height: 100%;
+  width: 100%;
+}

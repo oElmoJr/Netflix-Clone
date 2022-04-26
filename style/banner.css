@@ -15,8 +15,9 @@
 }
 
 .banner .container {
-  width: 50%;
+  width: 80%;
   margin: 0 30px;
+  padding-bottom: 30px;
 }
 
 .banner .descricao {
@@ -41,7 +42,6 @@
   cursor: pointer;
 
   margin-right: 15px;
-  margin-bottom: 40px;
   padding: 15px;
   transition: 0.3s ease all;
 }
