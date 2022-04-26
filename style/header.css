@@ -3,14 +3,17 @@ header .container {
   align-items: center;
   justify-content: space-between;
 
-  margin: 0 20px;
+  margin: 15px 30px;
 }
 
 header .logo {
-  color: var(--vermelho);
+  width: 120px;
+}
 
+header .logo-container {
+  color: var(--vermelho);
   font-family: "Arial Black";
-  font-size: 40px;
+  font-size: 16px;
 }
 
 header nav a {

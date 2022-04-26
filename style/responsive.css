@@ -11,6 +11,10 @@
 }
 
 @media screen and (min-width: 700px) {
+  .banner .container {
+    align-items: flex-start;
+  }
+
   .descricao {
     width: 50%;
   }

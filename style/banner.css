@@ -4,20 +4,20 @@
   justify-content: center;
   align-items: flex-start;
 
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+  background: linear-gradient(to right, rgba(0, 0, 0), rgba(0, 0, 0, 0) 100%),
     url("https://picsum.photos/1080/400/?blur");
+
   background-size: cover;
   background-position: center;
 
   font-size: 16px;
 
-  height: 400px;
+  height: 500px;
 }
 
 .banner .container {
   width: 80%;
   margin: 0 30px;
-  padding-bottom: 30px;
 }
 
 .banner .descricao {
@@ -26,10 +26,7 @@
 }
 
 .banner .titulo {
-  /* font-family: "Times New Roman", Times, serif; */
   font-size: 40px;
-
-  margin-top: 15%;
 }
 
 .banner .botao {
@@ -53,4 +50,8 @@
 
 .icon {
   margin-right: 8px;
+}
+
+.item {
+  width: 150px;
 }

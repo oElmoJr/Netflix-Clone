@@ -1,12 +1,27 @@
 .carrosel {
-  cursor: grab;
+  margin: 0 30px;
+  height: 300px;
+}
 
-  margin-top: 30px;
+.carrosel-element {
+  cursor: grab;
+  margin-top: 10px;
 }
 
 .box-filme {
   display: block;
 
-  height: 100%;
-  width: 100%;
+  height: 230px;
+  width: 150px;
+}
+
+.owl-next span,
+.owl-prev span {
+  line-height: 5px;
+  font-size: 50px;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+  background: none !important;
 }
