@@ -1,0 +1,101 @@
+.cardContainer {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.562);
+
+  width: 100%;
+  height: 1000px;
+}
+
+.cardContainer .botao-close {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  
+  background: none;
+  color: rgb(194, 192, 192);
+
+  border: none;
+  font-size: 40px;
+
+  height: 34px;
+  width: 34px;
+}
+
+.botao-close:hover {
+  color: white;
+}
+
+.cardContainer .card {
+  position: absolute;
+  top: 10px;
+  left: 330px;
+
+  overflow: scroll;
+
+  background-color: var(--preto);
+
+  width: 50%;
+  height: 600px;
+}
+
+.card .cartaz {
+  width: 100%;
+}
+
+.card .cardInfos {
+  padding: 20px 50px;
+}
+
+.card .titulo {
+  position: absolute;
+  top: 330px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card .botao {
+  color: black;
+  background-color: white;
+}
+
+.card .botao:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.botao-circle {
+  background: none;
+  color: rgb(194, 192, 192);
+
+  border: 2px solid rgb(194, 192, 192);
+  border-radius: 50%;
+
+  height: 34px;
+  width: 34px;
+  margin-right: 5px;
+}
+
+.botao-circle:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+.card .infos {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.card .nota {
+  font-weight: bold;
+  color: #46d369;
+}
+
+.card .descricao {
+  width: 100%;
+  margin-bottom: 25px;
+}

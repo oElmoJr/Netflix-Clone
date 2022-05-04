@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style/header.css" />
     <link rel="stylesheet" href="style/banner.css" />
     <link rel="stylesheet" href="style/carrosel.css" />
+    <link rel="stylesheet" href="style/card.css">
 
     <!-- responsive-css -->
     <link rel="stylesheet" href="style/responsive.css" />
@@ -26,44 +27,45 @@
               <img class="logo" src="src/img/Netflix_logo.svg" alt="netflix logo">.Clone</img>
             </div>
         <nav>
+          <span class="selected"><a href="#">Inicio</a></span>
           <a href="#">Flilmes</a>
           <a href="#">Series</a>
-          <a href="#">Documentários</a>
-          <a href="#">Animes</a>
         </nav>
       </div>
     </header>
+
+<div id="cardSection">
+
+</div>
+    
     <main>
       <div id="banner" class="banner">
-        <div id="bannerContainer" class="container">
+        <div  id="bannerContainer" class="container">
           
         </div>
       </div>
-    </main>
-
-    <div class="card">
-        <img class="cartaz" src="" alt="">
-        <h3 class="titulo"></h3>
-    </div>
-
-    <div class="filmes carrosel">
+      
+      <section class="filmes carrosel">
         <h3>Filmes Populares</h3>
         <div class="carrosel-element">
-            <div id="carroselFilme" class="owl-carousel owl-theme">
-                
-            </div>
+          <div id="carroselFilme" class="owl-carousel owl-theme">
+            
+          </div>
         </div>
-    </div>
-
-    <div class="series carrosel">
+      </section>
+      
+      <section class="series carrosel">
         <h3>Series Populares</h3>
         <div class="carrosel-element">
-            <div id="carroselSeries" class="owl-carousel owl-theme">
-                
-            </div>
+          <div id="carroselSeries" class="owl-carousel owl-theme">
+            
+          </div>
         </div>
-    </div>
+    </section>
 
+    
+  </main>
+    
     
     <!-- fontawesome-js -->
     <script
